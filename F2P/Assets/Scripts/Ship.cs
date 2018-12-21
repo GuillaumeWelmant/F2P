@@ -40,7 +40,15 @@ public class Ship : MonoBehaviour {
         id = 0;
         timeElapsed = 0;
         canMove = true;
-        canShoot = false;
+        if (!ray)
+        {
+            canShoot = true;
+        }
+        else
+        {
+            canShoot = false;
+        }
+
         if(startHealth > 0)
         {
             shipHealth = startHealth;
