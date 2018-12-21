@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1808553951742066}
+  m_IsPrefabAsset: 1
+--- !u!1 &1808553951742066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4960321968294246}
+  - component: {fileID: 114573128605229836}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4960321968294246
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808553951742066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.91018, y: 42.465446, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114573128605229836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808553951742066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327eefa1d4076c444a988b01c2d7a9fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCardsInHand: 3
+  deck:
+  - {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a, type: 2}
+  - {fileID: 11400000, guid: 7f5ec734c32a0f54e970d721ac8a73ab, type: 2}
+  - {fileID: 11400000, guid: 7f5ec734c32a0f54e970d721ac8a73ab, type: 2}
+  - {fileID: 11400000, guid: b5120184c928aec4bb9444cbcfda7712, type: 2}
+  - {fileID: 11400000, guid: 7f5ec734c32a0f54e970d721ac8a73ab, type: 2}
+  - {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a, type: 2}
+  uiHand:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  maxMana: 100
+  ui: {fileID: 0}
