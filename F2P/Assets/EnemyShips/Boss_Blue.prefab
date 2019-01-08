@@ -11,6 +11,36 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1395699331931294}
   m_IsPrefabAsset: 1
+--- !u!1 &1045218786083706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4448463415503592}
+  m_Layer: 0
+  m_Name: Hangar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1167554584310984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4605364399025556}
+  m_Layer: 0
+  m_Name: Hangar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1363521275651132
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,8 +102,23 @@ Transform:
   m_Children:
   - {fileID: 4451277066964878}
   - {fileID: 4785159142713310}
+  - {fileID: 4605364399025556}
+  - {fileID: 4448463415503592}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4448463415503592
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045218786083706}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.24, y: -0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405829176135078}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4451277066964878
 Transform:
@@ -87,6 +132,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4405829176135078}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4605364399025556
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167554584310984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.24, y: -0.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4405829176135078}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4785159142713310
 Transform:
@@ -140,15 +198,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 1000
-  startDamage: 8
-  fireRate: 3
+  startDamage: 2
+  fireRate: 3.5
+  summonRate: 3
   canons:
   - {fileID: 4451277066964878}
   - {fileID: 4785159142713310}
+  hangars:
+  - {fileID: 4605364399025556}
+  - {fileID: 4448463415503592}
   projectile: {fileID: 114605837486945702, guid: a9679013fa91c4841819b0aba900b62e,
     type: 2}
+  summons:
+  - {fileID: 114488190454751368, guid: 119565fa38fc09a4a9011afedaa623db, type: 2}
   speeds:
-  - 10
+  - 11
   directions:
   - {x: 1, y: 0, z: 0}
   patternTimes:
@@ -158,6 +222,8 @@ MonoBehaviour:
   battleDist: 0
   fireRange: 0
   manaBurst: 0
+  explosionDamage: 0
+  summoner: 1
 --- !u!212 &212794231234509284
 SpriteRenderer:
   m_ObjectHideFlags: 1

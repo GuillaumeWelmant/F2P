@@ -8,8 +8,12 @@ public class Ship : MonoBehaviour {
     public float startDamage;
 
     public float fireRate;
+    public float summonRate;
+
     public Transform[] canons;
+    public Transform[] hangars;
     public Projectile projectile;
+    public Ship[] summons;
 
     public float[] speeds;
     public Vector3[] directions;
@@ -22,15 +26,22 @@ public class Ship : MonoBehaviour {
     public float fireRange;
 
     public int manaBurst;
+    public float explosionDamage;
+    public bool summoner;
 
     private int id;
     private float timeElapsed;
     private float fireRateTimeElapsed;
+    private float summonRateTimeElapsed;
+    private int summonID;
+    private int hangarID;
+
 
     private float shipDamage;
     private float shipHealth;
     private bool canMove;
     private bool canShoot;
+    private bool canSummon;
 
     private UIManager ui;
 
@@ -40,6 +51,7 @@ public class Ship : MonoBehaviour {
         id = 0;
         timeElapsed = 0;
         canMove = true;
+        canSummon = summoner;
         if (!ray)
         {
             canShoot = true;
@@ -58,6 +70,9 @@ public class Ship : MonoBehaviour {
             shipDamage = startDamage;
         }
         ui = FindObjectOfType<UIManager>();
+
+        summonID = 0;
+        hangarID = 0;
 	}
 
     public void InitiateShip(int atk, int hp)
@@ -79,7 +94,10 @@ public class Ship : MonoBehaviour {
         {
             Shoot();
         }
-
+        if (canSummon)
+        {
+            Summon();
+        }
 
         if (ray)
         {
@@ -206,6 +224,38 @@ public class Ship : MonoBehaviour {
         }
     }
 
+    public void Summon()
+    {
+        if(summonRateTimeElapsed <= 0f /*&& summons[summonID] != null && hangars[hangarID] != null*/)
+        {
+            if (!playerShip)
+            {
+                Ship s = Instantiate(summons[summonID], hangars[hangarID].position, Quaternion.identity);
+                //s.transform.Rotate(0, 0, 180);
+
+                summonID++;
+                hangarID++;
+
+                if(summonID >= summons.Length)
+                {
+                    summonID = 0;
+                }
+
+                if(hangarID >= hangars.Length)
+                {
+                    hangarID = 0;
+                }
+            }
+
+            summonRateTimeElapsed = summonRate;
+        }
+        else
+        {
+            summonRateTimeElapsed -= Time.deltaTime;
+        }
+                
+    }
+
     public void SetCanMove(bool t)
     {
         canMove = t;
@@ -235,7 +285,7 @@ public class Ship : MonoBehaviour {
         {
             if (other.CompareTag("Boss"))
             {
-                other.GetComponent<Ship>().Damage(shipDamage);
+                other.GetComponent<Ship>().Damage(explosionDamage);
                 Player p = FindObjectOfType<Player>();
                 p.GainMana(manaBurst);
                 Destroy(gameObject);
