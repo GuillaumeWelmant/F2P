@@ -113,6 +113,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &100509798 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114828913340354758, guid: 4ceccb737658df247b19a1b9f1c91dda,
+    type: 2}
+  m_PrefabInternal: {fileID: 165324845}
+  m_Script: {fileID: 11500000, guid: 5ddc2adccfe7ba24b9598c18ea3688df, type: 3}
 --- !u!1001 &165324845
 Prefab:
   m_ObjectHideFlags: 0
@@ -297,7 +303,7 @@ Prefab:
     - target: {fileID: 224400390325040242, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -227.76
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 224400390325040242, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
@@ -563,6 +569,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6880e513eacaa8e49a843c2efee4c8dc, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &343587373 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114476068204924142, guid: 4ceccb737658df247b19a1b9f1c91dda,
+    type: 2}
+  m_PrefabInternal: {fileID: 165324845}
+  m_Script: {fileID: 11500000, guid: 5ddc2adccfe7ba24b9598c18ea3688df, type: 3}
 --- !u!1 &407053903
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,12 +985,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1644502709 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114297058100873826, guid: 4ceccb737658df247b19a1b9f1c91dda,
-    type: 2}
-  m_PrefabInternal: {fileID: 165324845}
-  m_Script: {fileID: 11500000, guid: 5ddc2adccfe7ba24b9598c18ea3688df, type: 3}
 --- !u!1001 &1703739430
 Prefab:
   m_ObjectHideFlags: 0
@@ -1022,17 +1028,17 @@ Prefab:
         type: 2}
       propertyPath: uiHand.Array.data[0]
       value: 
-      objectReference: {fileID: 595250741}
+      objectReference: {fileID: 100509798}
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: uiHand.Array.data[1]
       value: 
-      objectReference: {fileID: 1644502709}
+      objectReference: {fileID: 343587373}
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: uiHand.Array.data[2]
       value: 
-      objectReference: {fileID: 2052665425}
+      objectReference: {fileID: 595250741}
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: ui
@@ -1297,9 +1303,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &2052665425 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114610683657937818, guid: 4ceccb737658df247b19a1b9f1c91dda,
-    type: 2}
-  m_PrefabInternal: {fileID: 165324845}
-  m_Script: {fileID: 11500000, guid: 5ddc2adccfe7ba24b9598c18ea3688df, type: 3}
