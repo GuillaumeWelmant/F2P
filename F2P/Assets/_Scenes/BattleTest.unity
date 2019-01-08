@@ -434,6 +434,24 @@ Prefab:
       propertyPath: m_SizeDelta.y
       value: 841.8
       objectReference: {fileID: 0}
+    - target: {fileID: 114914837855392022, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: card
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f5ec734c32a0f54e970d721ac8a73ab,
+        type: 2}
+    - target: {fileID: 114297058100873826, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: card
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f5ec734c32a0f54e970d721ac8a73ab,
+        type: 2}
+    - target: {fileID: 114610683657937818, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: card
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f5ec734c32a0f54e970d721ac8a73ab,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ceccb737658df247b19a1b9f1c91dda, type: 2}
   m_IsPrefabAsset: 0

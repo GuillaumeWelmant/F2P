@@ -156,11 +156,14 @@ MonoBehaviour:
   startHealth: 0
   startDamage: 0
   fireRate: 0.75
+  summonRate: 0
   canons:
   - {fileID: 4208172014059732}
   - {fileID: 4454213577489612}
-  projectile: {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e,
-    type: 2}
+  hangars: []
+  projectiles:
+  - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
+  summons: []
   speeds:
   - 15
   directions:
@@ -172,6 +175,9 @@ MonoBehaviour:
   battleDist: 30
   fireRange: 60
   manaBurst: 5
+  explosionDamage: 0
+  mover: 1
+  summoner: 0
 --- !u!212 &212387843804926620
 SpriteRenderer:
   m_ObjectHideFlags: 1

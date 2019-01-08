@@ -28,7 +28,7 @@ public class Player : MonoBehaviour {
         hand = new List<Card>();
         graveyard = new List<Card>();
 
-        Draw(3);
+        FirstDraw(3);
     }
 	
 	// Update is called once per frame
@@ -64,7 +64,7 @@ public class Player : MonoBehaviour {
 
     public void Draw(int n)
     {
-        Debug.Log("Draw " + n + " cards");
+        Debug.Log("Draw " + n + " card(s)");
         for(int i=0; i < n; i++)
         {
             if (cardsInHand < maxCardsInHand)
@@ -99,6 +99,37 @@ public class Player : MonoBehaviour {
 
                 uiHand[j].card = c;
                 uiHand[j].DisplayCard();
+                hand.Add(c);
+                deck.Remove(c);
+                cardsInHand++;
+            }
+        }
+    }
+
+    public void FirstDraw(int n)
+    {
+        Debug.Log("First Draw " + n + " card(s)");
+        for (int i = 0; i < n; i++)
+        {
+            if (cardsInHand < maxCardsInHand)
+            {
+                if (deck.Count <= 0)
+                {
+                    foreach (Card ca in graveyard)
+                    {
+                        deck.Add(ca);
+                    }
+                    graveyard.Clear();
+                }
+
+                int r = Random.Range(0, deck.Count);
+
+                uiHand[i].gameObject.SetActive(true);
+
+                Card c = deck[r];
+
+                uiHand[i].card = c;
+                uiHand[i].DisplayCard();
                 hand.Add(c);
                 deck.Remove(c);
                 cardsInHand++;

@@ -115,6 +115,7 @@ MonoBehaviour:
   fireRange: 0
   manaBurst: 0
   explosionDamage: 0
+  mover: 1
   summoner: 0
 --- !u!212 &212799752507728990
 SpriteRenderer:

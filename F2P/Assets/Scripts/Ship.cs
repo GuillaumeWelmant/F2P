@@ -12,7 +12,7 @@ public class Ship : MonoBehaviour {
 
     public Transform[] canons;
     public Transform[] hangars;
-    public Projectile projectile;
+    public Projectile[] projectiles;
     public Ship[] summons;
 
     public float[] speeds;
@@ -27,12 +27,14 @@ public class Ship : MonoBehaviour {
 
     public int manaBurst;
     public float explosionDamage;
+    public bool mover;
     public bool summoner;
 
     private int id;
     private float timeElapsed;
     private float fireRateTimeElapsed;
     private float summonRateTimeElapsed;
+    private int projectileID;
     private int summonID;
     private int hangarID;
 
@@ -50,7 +52,7 @@ public class Ship : MonoBehaviour {
     {
         id = 0;
         timeElapsed = 0;
-        canMove = true;
+        canMove = mover;
         canSummon = summoner;
         if (!ray)
         {
@@ -197,23 +199,30 @@ public class Ship : MonoBehaviour {
 
     public void Shoot()
     {
-        if(fireRateTimeElapsed <= 0f && projectile != null)
+        if(fireRateTimeElapsed <= 0f && projectiles[projectileID] != null)
         {
             if (playerShip)
             {
                 for (int i = 0; i < canons.Length; i++)
                 {
-                    Instantiate(projectile, canons[i].position, Quaternion.identity).GetComponent<Projectile>().InitializeProj(shipDamage);
+                    Instantiate(projectiles[projectileID], canons[i].position, Quaternion.identity).GetComponent<Projectile>().InitializeProj(shipDamage);
                 }
             }
             else
             {
                 for (int i = 0; i < canons.Length; i++)
                 {
-                    Projectile p = Instantiate(projectile, canons[i].position, Quaternion.identity).GetComponent<Projectile>();
+                    Projectile p = Instantiate(projectiles[projectileID], canons[i].position, Quaternion.identity).GetComponent<Projectile>();
                     p.InitializeProj(shipDamage);
                     p.transform.Rotate(0, 0, 180);
                 }
+            }
+
+            projectileID++;
+
+            if(projectileID >= projectiles.Length)
+            {
+                projectileID = 0;
             }
 
             fireRateTimeElapsed = fireRate;
@@ -226,12 +235,11 @@ public class Ship : MonoBehaviour {
 
     public void Summon()
     {
-        if(summonRateTimeElapsed <= 0f /*&& summons[summonID] != null && hangars[hangarID] != null*/)
+        if(summonRateTimeElapsed <= 0f && summons[summonID] != null && hangars[hangarID] != null)
         {
             if (!playerShip)
             {
-                Ship s = Instantiate(summons[summonID], hangars[hangarID].position, Quaternion.identity);
-                //s.transform.Rotate(0, 0, 180);
+                Instantiate(summons[summonID], hangars[hangarID].position, Quaternion.identity);
 
                 summonID++;
                 hangarID++;
