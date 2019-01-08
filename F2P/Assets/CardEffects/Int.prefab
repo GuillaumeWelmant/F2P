@@ -131,7 +131,8 @@ MonoBehaviour:
   canons:
   - {fileID: 4969434631918194}
   hangars: []
-  projectiles: []
+  projectiles:
+  - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
   summons: []
   speeds:
   - 20
@@ -148,7 +149,7 @@ MonoBehaviour:
   fireRange: 30
   manaBurst: 10
   explosionDamage: 0
-  mover: 0
+  mover: 1
   summoner: 0
 --- !u!212 &212747424312511958
 SpriteRenderer:
@@ -185,7 +186,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9afa4f2f4b12635449bcca833fd12d46, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35574a9c765d10945af01cc0202f9403, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
