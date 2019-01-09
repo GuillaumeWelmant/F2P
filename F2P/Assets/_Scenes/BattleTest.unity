@@ -600,12 +600,12 @@ Prefab:
     - target: {fileID: 224931502902055274, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 224992510801572244, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 224457167470842834, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
@@ -635,12 +635,12 @@ Prefab:
     - target: {fileID: 224466187879804854, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 224949130292261856, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 224016515561591596, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
@@ -655,7 +655,7 @@ Prefab:
     - target: {fileID: 224400390325040242, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 224123091063436692, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
@@ -665,7 +665,7 @@ Prefab:
     - target: {fileID: 224663678136586586, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 224400390325040242, guid: 4ceccb737658df247b19a1b9f1c91dda,
         type: 2}
@@ -686,6 +686,46 @@ Prefab:
         type: 2}
       propertyPath: m_AnchoredPosition.x
       value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 675.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 205.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00015306
+      objectReference: {fileID: 0}
+    - target: {fileID: 224857191645200138, guid: 4ceccb737658df247b19a1b9f1c91dda,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -437.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ceccb737658df247b19a1b9f1c91dda, type: 2}
@@ -908,7 +948,7 @@ RectTransform:
   m_LocalScale: {x: 100, y: 70.999985, z: 0.99999845}
   m_Children: []
   m_Father: {fileID: 964549486}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1772,7 +1812,7 @@ RectTransform:
   m_LocalScale: {x: 100, y: 71, z: 1}
   m_Children: []
   m_Father: {fileID: 964549486}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
