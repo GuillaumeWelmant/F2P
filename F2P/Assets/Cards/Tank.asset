@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Tank
   manaCost: 6
-  artwork: {fileID: 0}
-  pattern: {fileID: 0}
+  artwork: {fileID: 21300000, guid: 7b416f7809b1f0c4c8ec9818cf768ad0, type: 3}
+  pattern: {fileID: 21300000, guid: 6564624b8c3193d41a44d98050be397b, type: 3}
   health: 10
   attack: 4
   effect: {fileID: 114281263317219854, guid: d447cfa596ecea74b9a2cbf7e037a1ae, type: 2}

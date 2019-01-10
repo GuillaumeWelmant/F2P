@@ -145,7 +145,7 @@ MonoBehaviour:
   battleDist: 30
   fireRange: 100
   manaBurst: 5
-  explosionDamage: 0
+  explosionDamage: 8
   mover: 1
   summoner: 0
 --- !u!212 &212387843804926620

@@ -135,13 +135,13 @@ MonoBehaviour:
   - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
   summons: []
   speeds:
-  - 20
-  - 6
+  - 15
+  - 5
   directions:
   - {x: 1, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}
   patternTimes:
-  - 2.5
+  - 3.55
   - 4
   playerShip: 1
   ray: 1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Lux
   m_EditorClassIdentifier: 
   name: Lux
-  manaCost: 12
+  manaCost: 8
   artwork: {fileID: 21300000, guid: 12c7ae36d5bedb24387815f706d11fa9, type: 3}
   pattern: {fileID: 21300000, guid: 36879930d94b73346b4635530f76536a, type: 3}
   health: 10

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Nox
   m_EditorClassIdentifier: 
   name: Nox
-  manaCost: 15
+  manaCost: 6
   artwork: {fileID: 21300000, guid: 6564624b8c3193d41a44d98050be397b, type: 3}
   pattern: {fileID: 21300000, guid: ace9fd5b3d2c89a46aae296ebd9e715f, type: 3}
   health: 5
