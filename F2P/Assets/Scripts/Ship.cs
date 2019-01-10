@@ -174,12 +174,12 @@ public class Ship : MonoBehaviour {
 
     public void Move()
     {
-        if ((directions[id].x > 0 && transform.position.x >= 45))
+        if ((directions[id].x > 0 && transform.position.x >= 50))
         {
             directions[id] = new Vector3(-directions[id].x, directions[id].y, directions[id].z);
         }
 
-        if ((directions[id].x < 0 && transform.position.x <= -45))
+        if ((directions[id].x < 0 && transform.position.x <= -50))
         {
             directions[id] = new Vector3(-directions[id].x, directions[id].y, directions[id].z);
         }
