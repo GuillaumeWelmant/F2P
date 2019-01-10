@@ -136,12 +136,14 @@ MonoBehaviour:
   summons: []
   speeds:
   - 15
+  - 18.5
   - 15
+  - 18.5
   - 15
-  - 15
-  - 15
+  - 18.5
   - 15
   directions:
+  - {x: 0, y: 1, z: 0}
   - {x: -1, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}
   - {x: 1, y: 0, z: 0}
@@ -149,6 +151,7 @@ MonoBehaviour:
   - {x: 1, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}
   patternTimes:
+  - 1
   - 3
   - 3
   - 3

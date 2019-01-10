@@ -16,6 +16,7 @@ MonoBehaviour:
   artwork: {fileID: 21300000, guid: ebd986ffc1af90b4d83fde06b929cb95, type: 3}
   pattern: {fileID: 21300000, guid: 36879930d94b73346b4635530f76536a, type: 3}
   health: 3
-  attack: 2
+  attack: 3
   effect: {fileID: 114281263317219854, guid: 3c0b2bcd1e7760047adf5f16af7a53d6, type: 2}
   cooldown: 5
+  rarity: 0
