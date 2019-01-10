@@ -19,6 +19,8 @@ public class CardEffect : MonoBehaviour {
 		
 	}
 
+    public virtual void Effect() { }
+
     public void Effect(Transform t, int atk, int hp)
     {
         if (summon)

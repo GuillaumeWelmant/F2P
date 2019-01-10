@@ -15,7 +15,15 @@ public class Colum : MonoBehaviour, IDropHandler {
         if(player.GetMana() >= c.manaCost)
         {
             player.LoseMana(c.manaCost);
-            c.effect.Effect(startPos, c.attack, c.health);
+            if (c.effect.summon)
+            {
+                c.effect.Effect(startPos, c.attack, c.health);
+            }
+            else
+            {
+                c.effect.Effect();
+            }
+
             player.UseCard(c);
         }
     }

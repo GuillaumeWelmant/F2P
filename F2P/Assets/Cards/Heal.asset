@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94638fef40233724fbe28ec0eb48d728, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  name: Heal
+  manaCost: 0
+  artwork: {fileID: 21300000, guid: 308883590a3f51a4abcb136847764de8, type: 3}
+  pattern: {fileID: 21300000, guid: 37a6d56deb094c4459684190d15cfba1, type: 3}
+  health: 0
+  attack: 0
+  effect: {fileID: 114622353766284018, guid: 9e45e17472a5c18468168fa06c8f8266, type: 2}
+  cooldown: 8

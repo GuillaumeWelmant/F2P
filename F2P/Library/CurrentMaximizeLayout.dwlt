@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 226
+  controlID: 5668
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 303
-    y: 92
+    y: 19
     width: 1194
     height: 574
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -69,9 +69,9 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -82,18 +82,18 @@ MonoBehaviour:
       y: 17
       width: 1194
       height: 557
-    m_Scale: {x: 1.2667698, y: 1.2667698}
-    m_Translation: {x: 597, y: 218.79535}
+    m_Scale: {x: 0.72526044, y: 0.72526044}
+    m_Translation: {x: 597, y: 278.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -471.27744
-      y: -172.71912
-      width: 942.5549
-      height: 439.70105
+      x: -823.1526
+      y: -384
+      width: 1646.3052
+      height: 768
     m_MinimalGUI: 1
   m_defaultScale: 0.72526044
   m_TargetTexture: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 227
+  controlID: 5669
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 206
+  controlID: 5670
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,9 +203,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60f1ffff
-    m_LastClickedID: -3744
-    m_ExpandedIDs: 60f1ffffa6f1ffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: c0a9fcff2415fdffe857feff0c75ffff8091ffffa6f1ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 0
     width: 1198
     height: 595
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -282,14 +282,14 @@ MonoBehaviour:
     height: 574
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 3396.890361759877
+  lastFramingTime: 6057.40866256964
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 181.23894, y: 77.94522, z: 8.061921}
+    m_Target: {x: 263.8996, y: 300.10214, z: 5.030319}
     speed: 2
-    m_Value: {x: 181.23894, y: 77.94522, z: 8.061921}
+    m_Value: {x: 263.8996, y: 300.10214, z: 5.030319}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -321,9 +321,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 177.86655
+    m_Target: 1.5294685
     speed: 2
-    m_Value: 177.86655
+    m_Value: 1.5294685
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -423,19 +423,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Cards
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Cards
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\welmant.guillaume\Documents\F2P\F2P\F2P
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 562f0000
-    m_LastClickedID: 12118
+    m_SelectedIDs: 5c2f0000
+    m_LastClickedID: 12124
     m_ExpandedIDs: 00000000562f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -489,8 +489,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 60f1ffff
-    m_LastClickedInstanceID: -3744
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000823600001a2e0000586fffffc499000000000000d22a0000242c0000302c0000a02a00002a42000036340000fa2d00009e390000f42e0000
     m_RenameOverlay:
