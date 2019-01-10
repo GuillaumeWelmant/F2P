@@ -5,6 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New  Card", menuName = "Card")]
 public class Card : ScriptableObject {
 
+    public enum Rarity { common, rare, epic, legendry}
+
     public new string name;
 
     public int manaCost;
@@ -17,4 +19,6 @@ public class Card : ScriptableObject {
     public CardEffect effect;
 
     public float cooldown;
+
+    public Rarity rarity;
 }

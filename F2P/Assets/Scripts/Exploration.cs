@@ -11,9 +11,12 @@ public class Exploration : MonoBehaviour {
     public GameObject stdInvok;
 
 	// Use this for initialization
-	void Start () {
-		
-	}
+	void Start ()
+    {
+        invok.SetActive(true);
+        dailyInvok.SetActive(false);
+        stdInvok.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	void Update () {
