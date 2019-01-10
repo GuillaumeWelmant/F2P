@@ -143,7 +143,7 @@ MonoBehaviour:
   playerShip: 1
   ray: 1
   battleDist: 30
-  fireRange: 100
+  fireRange: 50
   manaBurst: 5
   explosionDamage: 8
   mover: 1
