@@ -58,6 +58,11 @@ public class Exploration : MonoBehaviour {
 
     public IEnumerator Explore(int i)
     {
+        foreach(CardDisplay c in loots)
+        {
+            c.gameObject.SetActive(false);
+        }
+
         if (i >= 10)
         {
             epicMin = true;
@@ -74,6 +79,8 @@ public class Exploration : MonoBehaviour {
         for(int j=0; j<i; j++)
         {
             rareMin = true;
+
+            cardsLooted.Clear();
 
             for(int k=0; k<3; k++)
             {
@@ -144,15 +151,21 @@ public class Exploration : MonoBehaviour {
 
             for(int z=0; z<loots.Length; z++)
             {
+                loots[z].gameObject.SetActive(true);
                 loots[z].card = cardsLooted[z];
                 loots[z].DisplayCard();
             }
+
+            Debug.Log("Exploration " + (j + 1) + " terminée");
 
             yield return new WaitForSeconds(1.5f);
 
         }
 
-
+        foreach(CardDisplay c in loots)
+        {
+            c.gameObject.SetActive(false);
+        }
                 
     }
 }
