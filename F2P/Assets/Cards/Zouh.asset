@@ -19,3 +19,4 @@ MonoBehaviour:
   attack: 2
   effect: {fileID: 114052702619562246, guid: 43e11043e25d0264ca43dc0c51f77c53, type: 2}
   cooldown: 3
+  rarity: 1
