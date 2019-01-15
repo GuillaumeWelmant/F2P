@@ -174,12 +174,12 @@ public class Ship : MonoBehaviour {
 
     public void Move()
     {
-        if ((directions[id].x > 0 && transform.position.x >= 48.5))
+        if ((directions[id].x > 0 && transform.position.x >= 55))
         {
             directions[id] = new Vector3(-directions[id].x, directions[id].y, directions[id].z);
         }
 
-        if ((directions[id].x < 0 && transform.position.x <= -48.5))
+        if ((directions[id].x < 0 && transform.position.x <= -55))
         {
             directions[id] = new Vector3(-directions[id].x, directions[id].y, directions[id].z);
         }
@@ -193,6 +193,16 @@ public class Ship : MonoBehaviour {
             if (id >= speeds.Length)
             {
                 id = 0;
+            }
+
+            if (directions[id].x > 0 && transform.position.x >= 35)
+            {
+                directions[id] *= -1;
+            }
+
+            if (directions[id].x < 0 && transform.position.x <= -35)
+            {
+                directions[id] *= -1;
             }
         }
     }
