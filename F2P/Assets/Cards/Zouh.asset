@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Zouh
   manaCost: 2
-  artwork: {fileID: 21300000, guid: 7b198d1e3724600478cdabd7bf850d9e, type: 3}
+  artwork: {fileID: 21300000, guid: 6cd6b67ddb86a1f43a066b1e115ebba0, type: 3}
   pattern: {fileID: 21300000, guid: 7b198d1e3724600478cdabd7bf850d9e, type: 3}
   health: 2
   attack: 2
