@@ -135,20 +135,32 @@ MonoBehaviour:
   - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
   summons: []
   speeds:
-  - 15
-  - 5
+  - 20
+  - 18
+  - 20
+  - 18
+  - 20
+  - 18
   directions:
-  - {x: 1, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  - {x: 1, y: 0, z: 0}
   patternTimes:
-  - 3.55
-  - 4
+  - 2.5
+  - 3
+  - 2.5
+  - 3
+  - 2.5
+  - 3
   playerShip: 1
   ray: 1
   battleDist: 30
   fireRange: 30
   manaBurst: 10
-  explosionDamage: 0
+  explosionDamage: 15
   mover: 1
   summoner: 0
 --- !u!212 &212747424312511958

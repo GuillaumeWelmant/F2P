@@ -232,7 +232,7 @@ Prefab:
     - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
         type: 2}
       propertyPath: fireRate
-      value: 9
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
         type: 2}
