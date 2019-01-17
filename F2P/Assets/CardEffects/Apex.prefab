@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHealth: 0
   startDamage: 0
-  fireRate: 0.4
+  fireRate: 0.5
   summonRate: 0
   canons:
   - {fileID: 4969434631918194}
@@ -135,32 +135,20 @@ MonoBehaviour:
   - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
   summons: []
   speeds:
-  - 20
-  - 18
-  - 20
-  - 18
-  - 22
-  - 18
+  - 15
+  - 5
   directions:
-  - {x: 0, y: 1, z: 0}
-  - {x: -1, y: 0, z: 0}
-  - {x: 0, y: 1, z: 0}
-  - {x: -1, y: 0, z: 0}
-  - {x: 0, y: 1, z: 0}
   - {x: 1, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
   patternTimes:
-  - 2
-  - 3
-  - 2
-  - 3
-  - 2
-  - 3
+  - 3.55
+  - 4
   playerShip: 1
   ray: 1
   battleDist: 30
   fireRange: 30
   manaBurst: 10
-  explosionDamage: 15
+  explosionDamage: 0
   mover: 1
   summoner: 0
 --- !u!212 &212747424312511958
