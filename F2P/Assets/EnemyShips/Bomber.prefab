@@ -124,28 +124,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ba7e96889ef54d88c353ca3a80ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 0
-  startDamage: 0
-  fireRate: 0.75
+  startHealth: 30
+  startDamage: 2
+  fireRate: 0.4
   summonRate: 0
   canons:
-  - {fileID: 4490392688982976}
+  - {fileID: 4969434631918194, guid: 5cb911d2179902546ad70c1b185d3a75, type: 2}
   hangars: []
   projectiles:
   - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
   summons: []
   speeds:
-  - 15
+  - 10
   directions:
   - {x: 0, y: 1, z: 0}
   patternTimes:
-  - 1
+  - 500
   playerShip: 1
   ray: 1
-  battleDist: 45
-  fireRange: 60
-  manaBurst: 2
-  explosionDamage: 10
+  battleDist: 20
+  fireRange: 20
+  manaBurst: 10
+  explosionDamage: 20
   mover: 1
   summoner: 0
 --- !u!212 &212990522374996930

@@ -96,12 +96,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 20
-  startDamage: 20
-  fireRate: 1
+  startDamage: 10
+  fireRate: 0.5
   summonRate: 0
   canons: []
   hangars: []
-  projectile: {fileID: 0}
+  projectiles: []
   summons: []
   speeds:
   - 7
@@ -112,9 +112,9 @@ MonoBehaviour:
   playerShip: 0
   ray: 1
   battleDist: 10
-  fireRange: 0
-  manaBurst: 0
-  explosionDamage: 0
+  fireRange: 10
+  manaBurst: 10
+  explosionDamage: 10
   mover: 1
   summoner: 0
 --- !u!212 &212799752507728990

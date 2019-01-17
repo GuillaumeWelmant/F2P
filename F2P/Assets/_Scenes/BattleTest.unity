@@ -227,12 +227,22 @@ Prefab:
     - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
         type: 2}
       propertyPath: summonRate
-      value: 9999
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
         type: 2}
       propertyPath: fireRate
-      value: 9999
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
+        type: 2}
+      propertyPath: startDamage
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
+        type: 2}
+      propertyPath: startHealth
+      value: 800
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6880e513eacaa8e49a843c2efee4c8dc, type: 2}
@@ -663,7 +673,7 @@ Prefab:
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: deck.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4960321968294246, guid: 5d4a2f931ee8b00498ce5e37387418b3, type: 2}
       propertyPath: m_LocalPosition.x
@@ -733,25 +743,25 @@ Prefab:
         type: 2}
       propertyPath: deck.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 6d4850c8daf9bee4b878ea0d2214c8eb,
+      objectReference: {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a,
         type: 2}
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: deck.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 7ccb08fd87efd1f4c8fd8b22e7f746cb,
+      objectReference: {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a,
         type: 2}
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: deck.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: b5120184c928aec4bb9444cbcfda7712,
+      objectReference: {fileID: 11400000, guid: 7ccb08fd87efd1f4c8fd8b22e7f746cb,
         type: 2}
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: deck.Array.data[4]
       value: 
-      objectReference: {fileID: 11400000, guid: 49600ab9f8b835d438f5dbf72fdfde32,
+      objectReference: {fileID: 11400000, guid: 7ccb08fd87efd1f4c8fd8b22e7f746cb,
         type: 2}
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
@@ -763,7 +773,7 @@ Prefab:
         type: 2}
       propertyPath: deck.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a,
+      objectReference: {fileID: 11400000, guid: 6d4850c8daf9bee4b878ea0d2214c8eb,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d4a2f931ee8b00498ce5e37387418b3, type: 2}
