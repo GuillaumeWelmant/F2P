@@ -256,9 +256,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 800
-  startDamage: 8
-  fireRate: 100
-  summonRate: 100
+  startDamage: 5
+  fireRate: 120
+  summonRate: 50
   canons:
   - {fileID: 4451277066964878}
   - {fileID: 4785159142713310}
@@ -270,15 +270,16 @@ MonoBehaviour:
   projectiles:
   - {fileID: 114605837486945702, guid: a9679013fa91c4841819b0aba900b62e, type: 2}
   summons:
+  - {fileID: 114488190454751368, guid: 119565fa38fc09a4a9011afedaa623db, type: 2}
+  - {fileID: 114488190454751368, guid: 119565fa38fc09a4a9011afedaa623db, type: 2}
   - {fileID: 114588626187019174, guid: 20242647c106d7e489f2591260fba8a6, type: 2}
-  - {fileID: 114488190454751368, guid: 119565fa38fc09a4a9011afedaa623db, type: 2}
-  - {fileID: 114488190454751368, guid: 119565fa38fc09a4a9011afedaa623db, type: 2}
   speeds:
   - 11
   directions:
   - {x: 1, y: 0, z: 0}
+  - {x: -1, y: 0, z: 0}
   patternTimes:
-  - 10
+  - 8
   playerShip: 0
   ray: 0
   battleDist: 0

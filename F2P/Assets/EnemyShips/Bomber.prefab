@@ -125,12 +125,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 30
-  startDamage: 10
-  fireRate: 0.6
+  startDamage: 1
+  fireRate: 0.7
   summonRate: 0
-  canons: []
+  canons:
+  - {fileID: 4490392688982976}
   hangars: []
-  projectiles: []
+  projectiles:
+  - {fileID: 114605837486945702, guid: 9ae58ba11dc32cd439ed1e3e379ee426, type: 2}
   summons: []
   speeds:
   - 10
@@ -143,7 +145,7 @@ MonoBehaviour:
   battleDist: 20
   fireRange: 20
   manaBurst: 10
-  explosionDamage: 10
+  explosionDamage: 15
   mover: 1
   summoner: 0
 --- !u!212 &212990522374996930

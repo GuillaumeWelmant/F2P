@@ -15,8 +15,8 @@ MonoBehaviour:
   manaCost: 2
   artwork: {fileID: 21300000, guid: 3946a94c288792f4a9dbd6bbb2652bf0, type: 3}
   pattern: {fileID: 21300000, guid: 36879930d94b73346b4635530f76536a, type: 3}
-  health: 3
-  attack: 1
+  health: 30
+  attack: 0
   effect: {fileID: 114052702619562246, guid: 20242647c106d7e489f2591260fba8a6, type: 2}
   cooldown: 5
   rarity: 1

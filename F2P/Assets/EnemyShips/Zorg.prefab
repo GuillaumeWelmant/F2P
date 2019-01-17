@@ -11,6 +11,21 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1974180820618924}
   m_IsPrefabAsset: 1
+--- !u!1 &1341799646675516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4525628505161544}
+  m_Layer: 0
+  m_Name: Canon1
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1974180820618924
 GameObject:
   m_ObjectHideFlags: 0
@@ -38,10 +53,24 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1974180820618924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15, y: 58, z: 0}
+  m_LocalPosition: {x: -347.19232, y: -163.37915, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4525628505161544}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4525628505161544
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341799646675516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4428332346948712}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &54544403949610710
@@ -96,12 +125,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 20
-  startDamage: 10
+  startDamage: 1
   fireRate: 1
   summonRate: 0
-  canons: []
+  canons:
+  - {fileID: 4525628505161544}
   hangars: []
-  projectiles: []
+  projectiles:
+  - {fileID: 114605837486945702, guid: 9ae58ba11dc32cd439ed1e3e379ee426, type: 2}
   summons: []
   speeds:
   - 7
@@ -111,10 +142,10 @@ MonoBehaviour:
   - 1
   playerShip: 0
   ray: 1
-  battleDist: 10
-  fireRange: 10
+  battleDist: 20
+  fireRange: 20
   manaBurst: 10
-  explosionDamage: 10
+  explosionDamage: 15
   mover: 1
   summoner: 0
 --- !u!212 &212799752507728990
