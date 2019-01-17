@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114588626187019174}
   m_Layer: 0
   m_Name: Bomber
-  m_TagString: Ship
+  m_TagString: EnemyShip
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,27 +125,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 30
-  startDamage: 2
-  fireRate: 0.4
+  startDamage: 10
+  fireRate: 0.6
   summonRate: 0
-  canons:
-  - {fileID: 4969434631918194, guid: 5cb911d2179902546ad70c1b185d3a75, type: 2}
+  canons: []
   hangars: []
-  projectiles:
-  - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
+  projectiles: []
   summons: []
   speeds:
   - 10
   directions:
-  - {x: 0, y: 1, z: 0}
+  - {x: 0, y: -1, z: 0}
   patternTimes:
-  - 500
-  playerShip: 1
+  - 1
+  playerShip: 0
   ray: 1
   battleDist: 20
   fireRange: 20
   manaBurst: 10
-  explosionDamage: 20
+  explosionDamage: 10
   mover: 1
   summoner: 0
 --- !u!212 &212990522374996930

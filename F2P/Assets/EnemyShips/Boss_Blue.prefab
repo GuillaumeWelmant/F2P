@@ -255,10 +255,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ba7e96889ef54d88c353ca3a80ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 1000
-  startDamage: 2
-  fireRate: 4
-  summonRate: 4.5
+  startHealth: 900
+  startDamage: 8
+  fireRate: 15
+  summonRate: 5
   canons:
   - {fileID: 4451277066964878}
   - {fileID: 4785159142713310}
@@ -270,6 +270,8 @@ MonoBehaviour:
   projectiles:
   - {fileID: 114605837486945702, guid: a9679013fa91c4841819b0aba900b62e, type: 2}
   summons:
+  - {fileID: 114588626187019174, guid: 20242647c106d7e489f2591260fba8a6, type: 2}
+  - {fileID: 114488190454751368, guid: 119565fa38fc09a4a9011afedaa623db, type: 2}
   - {fileID: 114488190454751368, guid: 119565fa38fc09a4a9011afedaa623db, type: 2}
   speeds:
   - 11
