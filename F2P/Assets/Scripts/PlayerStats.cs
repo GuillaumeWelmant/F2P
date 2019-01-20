@@ -9,6 +9,12 @@ public class PlayerStats : MonoBehaviour {
 
     public int mothershipLevel;
 
+    public int[] cardLevels;
+    public int[] cardNumbers;
+
+    public int scraps;
+    public int darkMatter;
+
 	// Use this for initialization
 	void Start ()
     {
