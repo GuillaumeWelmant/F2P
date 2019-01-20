@@ -20,9 +20,15 @@ public class Player : MonoBehaviour {
     private float mana;
     private int cardsInHand;
 
+    private PlayerStats stats;
+
 	// Use this for initialization
 	void Start ()
     {
+        stats = FindObjectOfType<PlayerStats>();
+
+        maxMana = 100 + 20 * stats.mothershipLevel;
+
         cardsInHand = 0;
         mana = maxMana;
 
@@ -58,6 +64,7 @@ public class Player : MonoBehaviour {
         if (mana <= 0)
         {
             mana = 0;
+            ui.Lose();
             Debug.LogWarning("You Lose !");
         }
         ui.DisplayMana();

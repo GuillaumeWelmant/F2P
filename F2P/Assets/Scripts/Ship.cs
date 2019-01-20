@@ -289,6 +289,10 @@ public class Ship : MonoBehaviour {
         shipHealth -= d;
         if (shipHealth <= 0)
         {
+            if (gameObject.CompareTag("Boss"))
+            {
+                ui.Win();
+            }
             Destroy(gameObject);
         }
         if (gameObject.CompareTag("Boss"))
