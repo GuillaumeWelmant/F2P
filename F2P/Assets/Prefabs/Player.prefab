@@ -53,12 +53,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxCardsInHand: 3
   deck:
+  - {fileID: 11400000, guid: 6d4850c8daf9bee4b878ea0d2214c8eb, type: 2}
   - {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a, type: 2}
-  - {fileID: 11400000, guid: 7f5ec734c32a0f54e970d721ac8a73ab, type: 2}
-  - {fileID: 11400000, guid: dcf05be30bc218c40b3bf976d203d0a4, type: 2}
-  - {fileID: 11400000, guid: b5120184c928aec4bb9444cbcfda7712, type: 2}
-  - {fileID: 11400000, guid: 49600ab9f8b835d438f5dbf72fdfde32, type: 2}
-  - {fileID: 11400000, guid: 35aace7220627cb48a6e44291d9eb3b3, type: 2}
+  - {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a, type: 2}
+  - {fileID: 11400000, guid: 7ccb08fd87efd1f4c8fd8b22e7f746cb, type: 2}
+  - {fileID: 11400000, guid: 7ccb08fd87efd1f4c8fd8b22e7f746cb, type: 2}
   uiHand:
   - {fileID: 0}
   - {fileID: 0}

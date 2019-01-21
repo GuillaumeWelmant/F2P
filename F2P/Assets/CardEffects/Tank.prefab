@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1978638031165418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 419.54468, y: -89.56493, z: 0}
+  m_LocalPosition: {x: -110.743774, y: 160.55623, z: 561.91016}
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children:
   - {fileID: 4208172014059732}
@@ -98,7 +98,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.44, y: 1.77, z: 0.2}
+  m_Size: {x: 3, y: 1.77, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114281263317219854
 MonoBehaviour:
@@ -155,7 +155,7 @@ MonoBehaviour:
   fireRange: 35
   manaBurst: 5
   explosionDamage: 50
-  mover: 0
+  mover: 1
   summoner: 0
 --- !u!212 &212387843804926620
 SpriteRenderer:

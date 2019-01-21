@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1094333691511758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.2, y: -22.2, z: 0}
+  m_LocalPosition: {x: -111.934715, y: 161.74716, z: 505.97067}
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children:
   - {fileID: 4490392688982976}
@@ -98,7 +98,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.68, y: 2.37, z: 0.2}
+  m_Size: {x: 2.55, y: 2.37, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114052702619562246
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHealth: 0
   startDamage: 0
-  fireRate: 0.75
+  fireRate: 0.8
   summonRate: 0
   canons:
   - {fileID: 4490392688982976}
@@ -135,19 +135,16 @@ MonoBehaviour:
   - {fileID: 114605837486945702, guid: b3fb60f26a027e64ca116294d9feb06e, type: 2}
   summons: []
   speeds:
-  - 25
-  - 25
-  - 25
-  - 25
-  - 25
+  - 18
+  - 17
+  - 18
+  - 17
   directions:
   - {x: 0, y: 1, z: 0}
   - {x: -1, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}
   - {x: 1, y: 0, z: 0}
-  - {x: 0, y: 1, z: 0}
   patternTimes:
-  - 3
   - 3
   - 3
   - 3
@@ -155,9 +152,9 @@ MonoBehaviour:
   playerShip: 1
   ray: 1
   battleDist: 30
-  fireRange: 60
+  fireRange: 30
   manaBurst: 1
-  explosionDamage: 10
+  explosionDamage: 40
   mover: 1
   summoner: 0
 --- !u!212 &212990522374996930
