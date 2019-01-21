@@ -257,7 +257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHealth: 700
   startDamage: 5
-  fireRate: 16
+  fireRate: 15
   summonRate: 5
   canons:
   - {fileID: 4451277066964878}
