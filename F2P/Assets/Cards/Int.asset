@@ -14,7 +14,7 @@ MonoBehaviour:
   name: Int
   manaCost: 3
   artwork: {fileID: 21300000, guid: c08a9ca5446909e40bcc315a2c78a511, type: 3}
-  pattern: {fileID: 21300000, guid: 35574a9c765d10945af01cc0202f9403, type: 3}
+  pattern: {fileID: 21300000, guid: af32dbd853faaed44ab36eb8c3e11b64, type: 3}
   health: 4
   attack: 3
   effect: {fileID: 114471896498580554, guid: 3acfbd548957810429dadc6b4d00881d, type: 2}

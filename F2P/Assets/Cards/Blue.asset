@@ -14,7 +14,7 @@ MonoBehaviour:
   name: Blue Ship
   manaCost: 2
   artwork: {fileID: 21300000, guid: 56e7b51cd4eee034eae9d0337e9b2ec0, type: 3}
-  pattern: {fileID: 21300000, guid: 36879930d94b73346b4635530f76536a, type: 3}
+  pattern: {fileID: 21300000, guid: e6efdc98b6bbad94c8f412fe8b60ed07, type: 3}
   health: 3
   attack: 3
   effect: {fileID: 114281263317219854, guid: 3c0b2bcd1e7760047adf5f16af7a53d6, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   name: Tank
   manaCost: 12
   artwork: {fileID: 21300000, guid: 8e37195a811afe84293a98260dee8928, type: 3}
-  pattern: {fileID: 21300000, guid: 6564624b8c3193d41a44d98050be397b, type: 3}
+  pattern: {fileID: 21300000, guid: e6efdc98b6bbad94c8f412fe8b60ed07, type: 3}
   health: 10
   attack: 4
   effect: {fileID: 114281263317219854, guid: d447cfa596ecea74b9a2cbf7e037a1ae, type: 2}

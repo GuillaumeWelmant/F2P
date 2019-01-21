@@ -14,7 +14,7 @@ MonoBehaviour:
   name: Tanko
   manaCost: 6
   artwork: {fileID: 21300000, guid: c08a9ca5446909e40bcc315a2c78a511, type: 3}
-  pattern: {fileID: 21300000, guid: 6e58c06446366e14aa8a99b86e8aaf1d, type: 3}
+  pattern: {fileID: 21300000, guid: fdc425be9d1cfa54cb22a54c9312e2da, type: 3}
   health: 8
   attack: 5
   effect: {fileID: 114281263317219854, guid: db274938c15ea2141b2c05e035a6d945, type: 2}

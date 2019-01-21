@@ -14,7 +14,7 @@ MonoBehaviour:
   name: Nox
   manaCost: 6
   artwork: {fileID: 21300000, guid: 2bf507447d250da4b8e2e8cfe9031f9c, type: 3}
-  pattern: {fileID: 21300000, guid: ace9fd5b3d2c89a46aae296ebd9e715f, type: 3}
+  pattern: {fileID: 21300000, guid: 875ba7f205bed7c4cb5d3839d4999804, type: 3}
   health: 5
   attack: 10
   effect: {fileID: 114052702619562246, guid: 3c72f6cd8a2e1fb45b4b714a52f31b9b, type: 2}

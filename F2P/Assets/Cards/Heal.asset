@@ -13,9 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Heal
   manaCost: 0
-  artwork: {fileID: 21300000, guid: 308883590a3f51a4abcb136847764de8, type: 3}
-  pattern: {fileID: 21300000, guid: 37a6d56deb094c4459684190d15cfba1, type: 3}
+  artwork: {fileID: 21300000, guid: 3950a0eb6b2f88546b9b0b0840c7c836, type: 3}
+  pattern: {fileID: 21300000, guid: d7b2bdb3c71d84148a7150d79b245acf, type: 3}
   health: 0
   attack: 0
   effect: {fileID: 114622353766284018, guid: 9e45e17472a5c18468168fa06c8f8266, type: 2}
   cooldown: 8
+  rarity: 0
