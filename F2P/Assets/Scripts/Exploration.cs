@@ -27,8 +27,12 @@ public class Exploration : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        foreach (CardDisplay c in loots)
+        {
+            c.gameObject.SetActive(false);
+        }
 
-        foreach(GameObject g in selectedExplo)
+        foreach (GameObject g in selectedExplo)
         {
             g.SetActive(false);
         }

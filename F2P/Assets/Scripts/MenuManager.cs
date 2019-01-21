@@ -77,6 +77,8 @@ public class MenuManager : MonoBehaviour {
         socialPanel.SetActive(false);
         mothershipPanel.SetActive(false);
         optionsPanel.SetActive(false);
+
+        shopPanel.GetComponent<Shop>().DiplayBaseShop();
     }
 
     public void DisplatLibraryPanel()
