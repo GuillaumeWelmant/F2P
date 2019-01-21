@@ -95,6 +95,11 @@ public class Exploration : MonoBehaviour {
 
         if(player.darkMatter >= 5 * i)
         {
+            foreach (GameObject g in exploButtons)
+            {
+                g.SetActive(false);
+            }
+
             player.darkMatter -= 5 * i;
 
             foreach (CardDisplay c in loots)
@@ -227,6 +232,12 @@ public class Exploration : MonoBehaviour {
     {
         if(player.scraps >= 1000)
         {
+
+            foreach (GameObject g in exploButtons)
+            {
+                g.SetActive(false);
+            }
+
             player.scraps -= 1000;
             oneTimeButton.interactable = false;
 
