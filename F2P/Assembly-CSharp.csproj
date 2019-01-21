@@ -61,73 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\AudioPitchAndVolumeByVelocity.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\Damping.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\DestroyOnAudioStop.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\InstantiatePrefabOnCollisionEnter.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\OnTriggerEvents.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\Player.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\RandomInvoke.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\RandomInvoke_EmitParticle.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\RandomInvoke_PlayRandomSound.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\RandomSequence.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\RandomSoundOverTime.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\Ranges.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\SetParent.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\The Last Particle\Scripts\VolumeAndPitchNoiseOverTime.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\Wallpapers\Gravity Clock\Scripts\BillboardCameraPlaneUVFX.cs" />
-    <Compile Include="Assets\Mirza Beig\Demos\Wallpapers\Gravity Clock\Scripts\GravityClockInteractivityUVFX.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\DemoManager.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\FollowMouse.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\FPSDisplay.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\FPSTest.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\LoopingParticleSystemsManager.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\MouseRotateCamera.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\OneshotParticleSystemsManager.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\ParticleManager.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\AnimatedLight.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\Billboard.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\CameraShake.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyAfterTime.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyOnParticlesDead.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyOnTrailsDestroyed.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\IgnoreTimeScale.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\ParticleSystems.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\ParticleSystemTimeRemap.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\PerlinNoise.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\RendererSortingOrder.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\RewindParticleSystem.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\RewindParticleSystemSimple.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\RewindParticleSystemSuperSimple.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\Rotator.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\TrailRenderers.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\TransformNoise.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\Ultimate VFX\2 - Expansions\XP - STORM\Scripts\StormVFXTerrainDemoCamera.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\Ultimate VFX\2 - Expansions\XP - STORM\Scripts\StormVFXTerrainDemoFollowTargetPosition.cs" />
-    <Compile Include="Assets\Mirza Beig\Particle Systems\Ultimate VFX\2 - Expansions\XP - TITLES\Scripts\DemoManager_XPTitles.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\_Common\CreateLUT.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Scripts\AttractionParticleAffector.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Scripts\MT (EXPERIMENTAL)\ParticleAffectorMT.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Scripts\MT (EXPERIMENTAL)\TurbulenceParticleAffectorMT.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Scripts\Noise.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Scripts\ParticleAffector.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Scripts\TurbulenceParticleAffector.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Affectors\Scripts\VortexParticleAffector.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Flocking\ParticleFlocking.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Force Fields\Scripts (DEMO ONLY)\ParticleForceFieldsDemo.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Force Fields\Scripts (DEMO ONLY)\ParticleForceFieldsDemo_CameraRig.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Force Fields\Scripts\AttractionParticleForceField.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Force Fields\Scripts\Noise2.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Force Fields\Scripts\ParticleForceField.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Force Fields\Scripts\TurbulenceParticleForceField.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Force Fields\Scripts\VortexParticleForceField.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Lights\Scripts\ParticleLights.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Plexus\Scripts (DEMO ONLY)\ParticlePlexusDemo_CameraRig.cs" />
-    <Compile Include="Assets\Mirza Beig\Scripting\Effects\Particle Plexus\Scripts\ParticlePlexus.cs" />
-    <Compile Include="Assets\Mirza Beig\Shaders\_Common\IEBase.cs" />
-    <Compile Include="Assets\Mirza Beig\Shaders\_Common\MirzaPostProcessing.cs" />
-    <Compile Include="Assets\Mirza Beig\Shaders\Image Effects\Resources\Sharpen\Sharpen.cs" />
     <Compile Include="Assets\Scripts\BattleTrigger.cs" />
     <Compile Include="Assets\Scripts\Card.cs" />
     <Compile Include="Assets\Scripts\CardDisplay.cs" />
@@ -146,18 +79,17 @@
     <Compile Include="Assets\Scripts\Ship.cs" />
     <Compile Include="Assets\Scripts\Shredder.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <None Include="Assets\Mirza Beig\Shaders\Particles\Cutout\AlphaCutoff-Add.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/tardivier.nicolas/Documents/GitHub/F2P/F2P/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/gal.joris/Documents/F2P/F2P/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/tardivier.nicolas/Documents/GitHub/F2P/F2P/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/gal.joris/Documents/F2P/F2P/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/tardivier.nicolas/Documents/GitHub/F2P/F2P/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/gal.joris/Documents/F2P/F2P/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/tardivier.nicolas/Documents/GitHub/F2P/F2P/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/gal.joris/Documents/F2P/F2P/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -355,10 +287,10 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/tardivier.nicolas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/gal.joris/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/tardivier.nicolas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/gal.joris/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
