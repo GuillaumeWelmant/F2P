@@ -64,6 +64,7 @@ public class Player : MonoBehaviour {
         if (mana <= 0)
         {
             mana = 0;
+            CleanScene();
             ui.Lose();
             Debug.LogWarning("You Lose !");
         }
@@ -182,5 +183,21 @@ public class Player : MonoBehaviour {
     public void ChangeScene(int i)
     {
         SceneManager.LoadScene(i);
+    }
+
+    public void CleanScene()
+    {
+        Ship[] ships = FindObjectsOfType<Ship>();
+        Projectile[] projectiles = FindObjectsOfType<Projectile>();
+
+        foreach (Ship s in ships)
+        {
+            Destroy(s.gameObject);
+        }
+
+        foreach(Projectile p in projectiles)
+        {
+            Destroy(p.gameObject);
+        }
     }
 }

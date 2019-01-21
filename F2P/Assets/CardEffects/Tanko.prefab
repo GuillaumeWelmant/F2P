@@ -136,9 +136,9 @@ MonoBehaviour:
   summons: []
   speeds:
   - 15
+  - 30
   - 15
-  - 15
-  - 15
+  - 30
   directions:
   - {x: -1, y: 0, z: 0}
   - {x: 0, y: 1, z: 0}

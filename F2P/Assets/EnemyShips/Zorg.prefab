@@ -135,7 +135,7 @@ MonoBehaviour:
   - {fileID: 114605837486945702, guid: 9ae58ba11dc32cd439ed1e3e379ee426, type: 2}
   summons: []
   speeds:
-  - 7
+  - 14
   directions:
   - {x: 0, y: -1, z: 0}
   patternTimes:

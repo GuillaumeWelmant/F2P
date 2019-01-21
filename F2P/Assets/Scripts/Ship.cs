@@ -291,6 +291,8 @@ public class Ship : MonoBehaviour {
         {
             if (gameObject.CompareTag("Boss"))
             {
+                Player p = FindObjectOfType<Player>();
+                p.CleanScene();
                 ui.Win();
             }
             Destroy(gameObject);
