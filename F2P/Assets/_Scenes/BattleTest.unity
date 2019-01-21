@@ -224,16 +224,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
-        type: 2}
-      propertyPath: fireRate
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 114631488907797594, guid: 6880e513eacaa8e49a843c2efee4c8dc,
-        type: 2}
-      propertyPath: summonRate
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6880e513eacaa8e49a843c2efee4c8dc, type: 2}
   m_IsPrefabAsset: 0
@@ -663,7 +653,7 @@ Prefab:
     - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
         type: 2}
       propertyPath: deck.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4960321968294246, guid: 5d4a2f931ee8b00498ce5e37387418b3, type: 2}
       propertyPath: m_LocalPosition.x
@@ -721,7 +711,49 @@ Prefab:
         type: 2}
       propertyPath: deck.Array.data[5]
       value: 
+      objectReference: {fileID: 11400000, guid: 7ccb08fd87efd1f4c8fd8b22e7f746cb,
+        type: 2}
+    - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
+        type: 2}
+      propertyPath: deck.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7ccb08fd87efd1f4c8fd8b22e7f746cb,
+        type: 2}
+    - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
+        type: 2}
+      propertyPath: deck.Array.data[7]
+      value: 
       objectReference: {fileID: 11400000, guid: 35aace7220627cb48a6e44291d9eb3b3,
+        type: 2}
+    - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
+        type: 2}
+      propertyPath: deck.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6d4850c8daf9bee4b878ea0d2214c8eb,
+        type: 2}
+    - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
+        type: 2}
+      propertyPath: deck.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 35aace7220627cb48a6e44291d9eb3b3,
+        type: 2}
+    - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
+        type: 2}
+      propertyPath: deck.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 35aace7220627cb48a6e44291d9eb3b3,
+        type: 2}
+    - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
+        type: 2}
+      propertyPath: deck.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a,
+        type: 2}
+    - target: {fileID: 114573128605229836, guid: 5d4a2f931ee8b00498ce5e37387418b3,
+        type: 2}
+      propertyPath: deck.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 325c65848c07c7d41938b96874084f7a,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d4a2f931ee8b00498ce5e37387418b3, type: 2}

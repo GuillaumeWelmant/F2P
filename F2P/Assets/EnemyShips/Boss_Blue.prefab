@@ -255,10 +255,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ba7e96889ef54d88c353ca3a80ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 800
+  startHealth: 700
   startDamage: 5
-  fireRate: 120
-  summonRate: 50
+  fireRate: 16
+  summonRate: 5
   canons:
   - {fileID: 4451277066964878}
   - {fileID: 4785159142713310}
